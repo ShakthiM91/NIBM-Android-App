@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NIBM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutNIBM1">        The NIBM with its legacy of more than four decades in the business of training
+         and development and its vision of becoming the best management education 
+         institute in Sri Lanka offers you unmatched opportunities in management and 
+         IT education in Sri Lanka. The stability of being a government institute and 
+         the customer driven philosophy of the private sector, which we have adopted, 
+         means that well recognized qualifications at reasonable cost are being offered 
+         to the employed as well as to the school leaver in order to obtain the 
+         knowledge as well as the practical aspects needed for professional and 
+         personal development. Currently NIBM, Operate as a Statuary body under 
+         Ministry of Youth Affaires and Skills Development. </string>
+    <string name="aboutNIBM2">In the discipline IT we offer a Higher Diploma, Diplomas and many Certificate courses to cater to different needs as well as to ensure students will be able to gain a well recognized education Qualifications.</string>
+    <string name="aboutNIBM3">In the field of management and productivity the NIBM offers the mature and employed student the opportunity to obtain well recognized qualifications in diverse fields through twelve diploma programs conducted in the English and Sinhala media as well as the numerous Certificate and short term courses available. We also cater to specific needs of the industry through customized training programs and through consultancy assignments.</string>
+
+    <string-array name="course">
+        <item>Diploma</item>
+        <item>Certificate</item>
+        <item>Foundation</item>
+        <item >Workshop and Seminars</item>
+    </string-array>
+    <string-array name="dip">
+        <item>Diploma in Computer System Design ( DCSD )</item>
+        <item>Higher Diploma in Computer Based Information Systems ( HDCBIS )</item>
+        <item>Diploma in Information and Communication Technology ( DICT )</item>
+        <item>Diploma in Software Engineering (Full time)</item>
+        <item>Diploma in Software Engineering (Part time)</item>
+        <item>Diploma in Computer Networks (Full time)</item>
+        <item>Diploma in Computer Networks (Part time)</item>
+        <item>Diploma in Software Quality Assurance</item>
+        <item>Diploma in Management Information Systems (MIS) - Part Time</item>
+        <item>Diploma in Digital Imagine and Animation (DDIA)</item>
+        <item>Advanced Diploma in Advertising and Multimeadia</item>
+    </string-array>
+    <string-array name="certificate">
+        <item>Certificate Course in Computer Science ( CCS )</item>
+        <item>Certificate Course in Computer Programming (CCP)</item>
+        <item>Certificate Course in Computer Networking and Administration</item>
+        <item>Certificate Course in Web Application Development</item>
+        <item>Certificate Course in Personal Computer Based Application Packages</item>
+        <item>Certificate Course in Visual Basic.NET Programming for Database Applications</item>
+        <item>Certificate Course in Computer Hardware</item>
+        <item>Certificate course in Software Development in Java</item>
+        <item>Certificate Course in Advertising and Graphic Designing</item>
+        <item>Certificate in Computer Applications ( CCA )</item>
+    </string-array>
+    <string-array name="foundation">
+        <item>Foundation Course In Human Resource Management (English)</item>
+        <item>Foundation Course In Human Resource Management (Sinhala)</item>
+        <item></item>
+    </string-array>
+    <string-array name="workshop">
+        <item>Workshop on Clerical Skills Development (Sinhala Medium)</item>
+        <item>Workshop on Stores Management and Purchasing Procedures(English Medium)</item>
+        <item>Workshop On Reading and Understanding Financial Statements(English Medium)</item>
+        <item>Workshop on Supervisory Management (English Medium)</item>
+        <item>Workshop on Junior Executive Development</item>
+        <item>Workshop on Accounts and Audit Staff (English Medium)</item>
+    </string-array>
+
+</resources>

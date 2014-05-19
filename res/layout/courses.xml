@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbars="horizontal|vertical"
+    android:weightSum="100" >
+
+    <ExpandableListView
+        android:id="@+id/expandableListView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="90"
+        android:scrollbars="horizontal|vertical" >
+    </ExpandableListView>
+
+    <Button
+        android:id="@+id/btnReqMore"
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/req"
+        android:maxHeight="48dp" />
+   
+</LinearLayout>

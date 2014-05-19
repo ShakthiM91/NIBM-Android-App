@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:orientation="vertical" >
+
+        <ImageSwitcher
+            android:id="@+id/imgswitchMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ImageSwitcher>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAbout"
+            style="@style/btnStyleGenoa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="About NIBM" />
+
+        <Button
+            android:id="@+id/btnNews"
+            style="@style/btnStyleGenoa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Headlines and Events" />
+
+        <Button
+            android:id="@+id/btnCourse"
+            style="@style/btnStyleGenoa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses" />
+
+        <Button
+            android:id="@+id/btnRegional"
+            style="@style/btnStyleGenoa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Centres" />
+
+        <Button
+            android:id="@+id/btnSite"
+            style="@style/btnStyleGenoa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit Web Site" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <Button
+        android:id="@+id/btnColombo"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:background="@drawable/colombo"
+        android:gravity="bottom|center_vertical|center_horizontal"
+        android:text="Colmbo"
+        android:textColor="#0000FF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGalle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:background="@drawable/galle"
+        android:gravity="bottom|center_vertical|center_horizontal"
+        android:text="Galle"
+        android:textColor="#0000FF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnKandy"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:background="@drawable/kandy"
+        android:gravity="bottom|center_vertical|center_horizontal"
+        android:text="Kandy"
+        android:textColor="#0000FF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnKuru"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:background="@drawable/kurunagala"
+        android:gravity="bottom|center_vertical|center_horizontal"
+        android:text="Kurunagala"
+        android:textColor="#0000FF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
